@@ -54,7 +54,9 @@ class App extends Component {
         >
           {this.state.shows ? "Hide Profile" : "Show Profile"}
         </Button>
-        <p>This component was first mounted {this.state.timeInterval}s ago </p>
+        <p className="text-center">
+          This component was first mounted {this.state.timeInterval}s ago
+        </p>
       </div>
     );
   }
