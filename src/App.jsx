@@ -49,7 +49,7 @@ class App extends Component {
         {this.state.shows && this.RenderProfileCard()}
         <Button
           onClick={this.toggleShowState}
-          className="w-25"
+          className="w-50"
           variant="secondary"
         >
           {this.state.shows ? "Hide Profile" : "Show Profile"}
